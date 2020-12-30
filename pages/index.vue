@@ -21,7 +21,7 @@
               <tbody>
                 <tr>
                   <th>📕 Tamil:</th>
-                  <td>{{ loading ? "Generate Tamil Word" : results.tamilwords }}</td>
+                  <td>{{ loading ? "Generate Tamil Word" : results.tamilword }}</td>
                 </tr>
                 <tr>
                   <th>📓 in English:</th>
@@ -36,7 +36,7 @@
               {{ loading ? "🔄 Generating" : "🔄 Random" }}
             </button>
             <button
-              v-clipboard:copy="'📕 Tamil Word: ' + results.tamilwords + '\n\n📓 English Meaning: ' + results.englishmeaning "
+              v-clipboard:copy="'📕 Tamil Word: ' + results.tamilword + '\n\n📓 English Meaning: ' + results.englishmeaning "
               v-clipboard:success="onCopy"
               v-clipboard:error="onError"
               class="btn button is-link read-random"
@@ -49,7 +49,8 @@
           <br>
           <div class="notification is-warning">
             <p class="has-text-weight-bold has-text-centered">
-              if you Find any Mistakes in Tamil words and English Meaning just Mail me at -  <a href="mailto:santhoshveerblog@gmail.com">santhoshveerblog@gmail.com</a>
+              Words are manually Translated using Google Translate - we just add the Commonly used Tamil Words with English meaning.<br>
+              if you Find any Mistakes in Tamil words and English Meaning just Email me at -  <a href="mailto:santhoshveerblog@gmail.com">santhoshveerblog@gmail.com</a>
             </p>
           </div>
           <br>
@@ -82,7 +83,7 @@ export default {
   methods: {
     getResult () {
       this.loading = true
-      axios.get('https://app.santhoshveer.com/words.php').then((response) => { this.results = response.data[0]; this.loading = false })
+      axios.get('https://api.sanweb.info/tamil/').then((response) => { this.results = response.data[0]; this.loading = false })
       this.$toast.success('New Word Updated', {
         duration: 500
       }

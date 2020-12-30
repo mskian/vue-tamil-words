@@ -76,7 +76,7 @@ export default {
         href: '/icons/Icon-512.png'
       },
       { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
-      { rel: 'dns-prefetch', href: 'https://app.santhoshveer.com' },
+      { rel: 'dns-prefetch', href: 'https://api.sanweb.info' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
       { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' }
     ]

@@ -6,7 +6,9 @@ Get Random Tamil Words - Commonly spoken Tamil words with English Meaning.
 
 ## API
 
-Thanks to - [1000mostcommonwords.com](https://1000mostcommonwords.com/1000-most-common-tamil-words/)
+Thanks to [@Stichoza](https://github.com/Stichoza) for - [Google Translate PHP](https://github.com/Stichoza/google-translate-php) PHP Package - it helps me to translate the tamil words and English words.
+
+I just translate the commonly used Tamil words and converted into JSON API.
 
 ## Build Setup
 
