@@ -78,7 +78,17 @@ export default {
       { rel: 'dns-prefetch', href: 'https://fonts.googleapis.com' },
       { rel: 'dns-prefetch', href: 'https://api.sanweb.info' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
-      { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' }
+      { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' },
+      { rel: 'dns-prefetch', href: 'https://stats.santhoshveer.com' }
+    ],
+    script: [
+      {
+        hid: 'umami',
+        async: true,
+        defer: true,
+        'data-website-id': '430ed31a-c59e-43b3-9c13-7c9b96feae98',
+        src: 'https://stats.santhoshveer.com/umami.js'
+      }
     ]
   },
   loading: { color: '#e84b0d' },
@@ -106,9 +116,14 @@ export default {
     '@nuxtjs/bulma',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap',
     '@nuxtjs/toast',
     'nuxt-clipboard2'
   ],
+  sitemap: {
+    hostname: 'https://tamil.sanweb.info',
+    exclude: ['/404']
+  },
   /*
    ** Add overriding info for meta items
    */

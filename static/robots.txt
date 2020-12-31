@@ -1,2 +1,35 @@
-User-agent: * 
+User-agent: *
+Disallow: /ghost/
+Disallow: /p/
+
+User-agent: NinjaBot
+Allow: /
+
+User-agent: Mediapartners-Google*
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /media/
+
+User-agent: Adsbot-Google
+Allow: /
+ 
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: SemrushBot
 Disallow: /
+
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+Sitemap: https://tamil.sanweb.info/sitemap.xml
