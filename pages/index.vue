@@ -48,10 +48,17 @@
           <br>
           <br>
           <div class="notification is-warning">
+            <br>
             <p class="has-text-weight-bold has-text-centered">
               Words are manually Translated using Google Translate - we just add the Commonly used Tamil Words with English meaning.<br>
-              if you Find any Mistakes in Tamil words and English Meaning just Email me at -  <a href="mailto:santhoshveerblog@gmail.com">santhoshveerblog@gmail.com</a>
+              if you Find any Mistakes in Tamil words and English Meaning just Email me at -  <a href="mailto:me@santhoshveer.com">me@santhoshveer.com</a>
             </p>
+            <br>
+            <div class="buttons is-centered">
+              <a href="https://github.com/mskian/vue-tamil-words" class="button is-success read-random" target="_blank" rel="nofollow noopener">📦 Souce Code</a>
+              <a href="https://github.com/mskian/tamil-words" class="btn button is-link read-random" target="_blank" rel="nofollow noopener">🗃 API Data</a>
+            </div>
+            <br>
           </div>
           <br>
         </div>
