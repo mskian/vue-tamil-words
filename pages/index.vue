@@ -46,6 +46,10 @@
             </button>
           </div>
           <br>
+          <p class="has-text-warning has-text-weight-bold has-text-centered">
+            Join with me - Help me to Provide the Tamil Words with Pronunciation
+          </p>
+          <div id="discourse-comments" />
           <br>
           <div class="notification is-warning">
             <br>
@@ -77,6 +81,23 @@ export default {
       showInstallPrompt: null,
       results: {}
     }
+  },
+  head: {
+    __dangerouslyDisableSanitizers: ['script'],
+    script: [
+      {
+        hid: 'discourse',
+        innerHTML: `DiscourseEmbed = { discourseUrl: 'https://ask.santhoshveer.com/',
+                    topicId: '62' };
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();`,
+        type: 'text/javascript',
+        charset: 'utf-8'
+      }
+    ]
   },
   async mounted () {
     this.showInstallPrompt = await intializePwa()
