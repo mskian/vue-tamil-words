@@ -27,6 +27,10 @@
                   <th>📓 in English:</th>
                   <td>{{ loading ? "Generate Word Meaning" : results.englishmeaning }}</td>
                 </tr>
+                <tr>
+                  <th>🗣 Pronunciation:</th>
+                  <td>{{ loading ? "Generate Word Meaning" : results.tamilpronounce }}</td>
+                </tr>
               </tbody>
             </table>
           </div>
@@ -36,7 +40,7 @@
               {{ loading ? "🔄 Generating" : "🔄 Random" }}
             </button>
             <button
-              v-clipboard:copy="'📕 Tamil Word: ' + results.tamilword + '\n\n📓 English Meaning: ' + results.englishmeaning "
+              v-clipboard:copy="'📕 Tamil Word: ' + results.tamilword + '\n\n 📓 English Meaning: ' + results.englishmeaning + '\n\n 🗣 Pronunciation: ' + results.tamilpronounce"
               v-clipboard:success="onCopy"
               v-clipboard:error="onError"
               class="btn button is-link read-random"
@@ -46,8 +50,9 @@
             </button>
           </div>
           <br>
+          <br>
           <p class="has-text-warning has-text-weight-bold has-text-centered">
-            Join with me - Help me to Provide the Tamil Words with Pronunciation
+            Join with me 🙌 - Help me to Provide the More Tamil Words with Tanglish Pronunciation 🗣
           </p>
           <div id="discourse-comments" />
           <br>
