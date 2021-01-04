@@ -79,8 +79,7 @@ export default {
       { rel: 'dns-prefetch', href: 'https://api.sanweb.info' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
       { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' },
-      { rel: 'dns-prefetch', href: 'https://stats.santhoshveer.com' },
-      { rel: 'dns-prefetch', href: 'https://ask.santhoshveer.com' }
+      { rel: 'dns-prefetch', href: 'https://stats.santhoshveer.com' }
     ],
     script: [
       {
