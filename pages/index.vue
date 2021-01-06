@@ -6,9 +6,9 @@
           <br>
           <br>
           <h1 class="title has-text-warning has-text-centered">
-            Tamil Words 🍔
+            Tamil Words ⚛
           </h1>
-          <p class="has-text-success has-text-weight-bold has-text-centered">
+          <p class="has-text-success has-text-weight-medium has-text-centered">
             Click Random Button to Get Random Tamil Words - Commonly spoken Tamil words with English Meaning.
           </p>
           <div class="buttons is-centered">
@@ -52,7 +52,7 @@
           <br>
           <br>
           <div class="subscribe-form">
-            <p class="has-text-weight-bold has-text-centered">
+            <p class="has-text-weight-medium has-text-centered">
               Join with me 🙌 - Help me to Provide the More Tamil Words with Tanglish Pronunciation 🗣
             </p>
             <a href="https://ask.santhoshveer.com/t/tamil-words-and-pronunciation/62" class="button-link" target="_blank" rel="nofollow noopener"><span>Join Now</span></a>
@@ -60,7 +60,7 @@
           <br>
           <div class="notification is-warning">
             <br>
-            <p class="has-text-weight-bold has-text-centered">
+            <p class="has-text-weight-medium has-text-centered">
               Words are manually Translated using Google Translate - we just add the Commonly used Tamil Words with English meaning.<br>
               if you Find any Mistakes in Tamil words and English Meaning just Email me at -  <a href="mailto:me@santhoshveer.com">me@santhoshveer.com</a>
             </p>
@@ -122,14 +122,14 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@300;400;500;600;700;800&display=swap');
 body {
   font-size: 16px;
   background-color: #1d3557;
   height: 100vh;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Catamaran', sans-serif;
-  font-weight: 800;
+  font-family: 'Mukta Malar', sans-serif;
+  font-weight: 600;
   line-height: 1.618;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: grayscale;
@@ -172,7 +172,7 @@ textarea,
 }
 .title {
   color:#d9ee1c;
-  font-weight: 800;
+  font-weight: 700;
 }
 a:hover, a:focus, a:active {
     color: #010508;
@@ -181,8 +181,8 @@ a:hover, a:focus, a:active {
     color: #ffffff;
 }
 .read-more {
-  font-family: 'Catamaran', sans-serif;
-	font-weight: 800;
+  font-family: 'Mukta Malar', sans-serif;
+	font-weight: 700;
 	font-size: 23px;
 	padding: 16px;
   color: rgb(248, 244, 183);
@@ -196,8 +196,8 @@ a:hover, a:focus, a:active {
 .read-random {
 	display: flex;
 	flex-grow: 0.3;
-  font-family: 'Catamaran', sans-serif;
-	font-weight: 800;
+  font-family: 'Mukta Malar', sans-serif;
+	font-weight: 700;
 	font-size: 13px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 	border-radius: 32px;
@@ -243,7 +243,7 @@ pre code {
 }
 .content h1 {
     font-size:28px;
-    font-weight: 800;
+    font-weight: 700;
 }
 .content h2 {
     font-size:21px;
@@ -266,7 +266,7 @@ pre code {
     color: #fff !important;
     font-size: 16px;
     line-height: 1.0;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     text-shadow: 0 -1px 0 rgba(0,0,0,.1);
     background: linear-gradient(#4fb7f0,#29a0e0 60%,#29a0e0 90%,#36a6e2);
@@ -278,7 +278,7 @@ pre code {
     -webkit-font-smoothing: antialiased !important;
     -moz-font-smoothing: antialiased !important;
     text-rendering: optimizelegibility !important;
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Mukta Malar', sans-serif;
 }
 .button-link:hover {
 background: linear-gradient(#36a6e2,#29a0e0 60%,#29a0e0 90%,#4fb7f0);
