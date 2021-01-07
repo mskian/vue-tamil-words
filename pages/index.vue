@@ -6,7 +6,7 @@
           <br>
           <br>
           <h1 class="title has-text-warning has-text-centered">
-            Tamil Words ⚛
+            தமிழ் வேர்ட்ஸ் ⚛
           </h1>
           <p class="has-text-success has-text-weight-medium has-text-centered">
             Click Random Button to Get Random Tamil Words - Commonly spoken Tamil words with English Meaning.
@@ -89,6 +89,17 @@ export default {
       results: {}
     }
   },
+  head () {
+    return {
+      meta: [
+        {
+          hid: 'og:url',
+          property: 'og:url',
+          content: 'https://tamilwords.net' + this.$route.path
+        }
+      ]
+    }
+  },
   async mounted () {
     this.showInstallPrompt = await intializePwa()
   },
@@ -101,7 +112,7 @@ export default {
   methods: {
     getResult () {
       this.loading = true
-      axios.get('https://api.sanweb.info/tamil/').then((response) => { this.results = response.data[0]; this.loading = false })
+      axios.get('https://api.tamilwords.net/').then((response) => { this.results = response.data[0]; this.loading = false })
       this.$toast.success('New Word Updated', {
         duration: 500
       }
@@ -118,7 +129,6 @@ export default {
     }
   }
 }
-
 </script>
 
 <style>
