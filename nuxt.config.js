@@ -132,7 +132,13 @@ export default {
       { rel: 'dns-prefetch', href: 'https://api.tamilsms.net' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
       { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' },
-      { rel: 'dns-prefetch', href: 'https://stats.santhoshveer.com' }
+      { rel: 'dns-prefetch', href: 'https://stats.santhoshveer.com' },
+      {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: 'தமிழ் வேர்ட்ஸ் - Tamil Words 🔀',
+        href: 'https://tamilwords.net/feed.xml'
+      }
     ],
     script: [
       {
@@ -201,12 +207,33 @@ export default {
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
     '@nuxtjs/toast',
-    'nuxt-clipboard2'
+    'nuxt-clipboard2',
+    '@nuxtjs/feed'
   ],
   sitemap: {
     hostname: 'https://tamilwords.net',
-    exclude: ['/404']
+    gzip: true,
+    exclude: ['/404'],
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date()
+    }
   },
+  feed: [
+    {
+      path: '/feed.xml',
+      create (feed) {
+        feed.options = {
+          title: 'தமிழ் வேர்ட்ஸ் - Tamil Words 🔀',
+          link: 'https://tamilwords.net/',
+          description: 'Get Random Tamil Words - Commonly spoken Tamil words with English Meaning and Pronunciation.'
+        }
+      },
+      cacheTime: 1000 * 60 * 15,
+      type: 'rss2'
+    }
+  ],
   /*
    ** Add overriding info for meta items
    */
