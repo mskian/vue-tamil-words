@@ -1,5 +1,5 @@
 # Netlify redirects file, edit with your domain
 # https://www.netlify.com/docs/redirects/
 
-https://tamilwords.netlify.app/* https://tamil.sanweb.info/:splat 301!
-http://tamilwords.netlify.app/* https://tamil.sanweb.info/:splat 301!
+https://tamilwords.netlify.app/* https://tamilwords.net/:splat 301!
+http://tamilwords.netlify.app/* https://tamilwords.net/:splat 301!

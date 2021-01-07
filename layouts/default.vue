@@ -11,7 +11,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: 'https://tamil.sanweb.info' + this.$route.path
+          href: 'https://tamilwords.net' + this.$route.path
         }
       ]
     }

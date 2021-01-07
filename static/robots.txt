@@ -32,4 +32,4 @@ Disallow: /
 User-agent: HTTrack
 Disallow: /
 
-Sitemap: https://tamil.sanweb.info/sitemap.xml
+Sitemap: https://tamilwords.net/sitemap.xml

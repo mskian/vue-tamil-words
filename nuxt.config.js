@@ -37,7 +37,7 @@ export default {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://tamil.sanweb.info/media/tamil-words.png'
+        content: 'https://tamilwords.net/media/tamil-words.png'
       }
     ],
     link: [
@@ -121,7 +121,7 @@ export default {
     'nuxt-clipboard2'
   ],
   sitemap: {
-    hostname: 'https://tamil.sanweb.info',
+    hostname: 'https://tamilwords.net',
     exclude: ['/404']
   },
   /*
