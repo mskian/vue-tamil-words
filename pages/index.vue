@@ -53,9 +53,9 @@
           <br>
           <div class="subscribe-form">
             <p class="has-text-weight-medium has-text-centered">
-              Join with me 🙌 - Help me to Provide the More Tamil Words with Tanglish Pronunciation 🗣
+              Join with me (Telegram Group) 🙌 - Help me to Provide the More Tamil Words with Tanglish Pronunciation 🗣
             </p>
-            <a href="https://ask.santhoshveer.com/t/tamil-words-and-pronunciation/62" class="button-link" target="_blank" rel="nofollow noopener"><span>Join Now</span></a>
+            <a href="https://telegram.me/tamilwords" class="button-link" target="_blank" rel="nofollow noopener"><span>Join Now</span></a>
           </div>
           <br>
           <div class="notification is-warning">
