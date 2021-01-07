@@ -1,16 +1,36 @@
-# Vue Tamil Words
+# Tamil Words 🔀
 
 ![build-test](https://github.com/mskian/vue-tamil-words/workflows/build-test/badge.svg)  
 
-Get Random Tamil Words - Commonly spoken Tamil words with English Meaning.
+Get Random Tamil Words - Commonly spoken Tamil words with English Meaning and Pronunciation.
 
-## API
+## Features ✨
+
+- Realtime Words data
+- Progressive Web App
+- Sitemap
+- RSS feed
+- SEO and Social Meta Tags
+- Schema Markup
+- Canonical URL
+- Offline Support
+- Mobile Responsive (Build using Bulma CSS Framework)
+
+## API 🍘
 
 Tamil Words API + Google Translate [@Tamilwords](https://github.com/mskian/tamil-words)
 
 I just translate the commonly used Tamil words and converted into JSON API.
 
-## Build Setup
+## Built with ⚙
+
+- HTML
+- CSS, Bulma CSS Framework
+- JavaScript
+- Vue
+- Nuxt
+
+## Build Setup 📦
 
 ```bash
 # install dependencies
@@ -27,8 +47,6 @@ $ yarn start
 $ yarn generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
-
-## LICENSE
+## LICENSE ✅
 
 MIT
