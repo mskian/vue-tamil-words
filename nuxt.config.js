@@ -23,6 +23,14 @@ export default {
         content: 'no-referrer-when-downgrade'
       },
       {
+        name: 'google-site-verification',
+        content: 'b0koExdwK4cybMVZwggKXV4WEYBFGKDQIYHczjQVm0k'
+      },
+      {
+        name: 'msvalidate.01',
+        content: 'E944752688434A6AC1D08C008624D319'
+      },
+      {
         name: 'mobile-web-app-capable',
         content: 'yes'
       },
