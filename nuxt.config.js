@@ -176,8 +176,8 @@ export default {
           image: {
             '@type': 'ImageObject',
             url: 'https://tamilwords.net/media/tamil-words.jpg',
-            width: 1280,
-            height: 720
+            width: 1200,
+            height: 630
           },
           mainEntityOfPage: {
             '@type': 'WebPage',
