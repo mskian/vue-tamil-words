@@ -150,13 +150,6 @@ export default {
     ],
     script: [
       {
-        hid: 'umami',
-        async: true,
-        defer: true,
-        'data-website-id': '430ed31a-c59e-43b3-9c13-7c9b96feae98',
-        src: 'https://stats.santhoshveer.com/umami.js'
-      },
-      {
         type: 'application/ld+json',
         json: {
           '@context': 'http://schema.org',
