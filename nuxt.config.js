@@ -140,7 +140,6 @@ export default {
       { rel: 'dns-prefetch', href: 'https://api.tamilsms.net' },
       { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' },
       { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' },
-      { rel: 'dns-prefetch', href: 'https://stats.santhoshveer.com' },
       {
         rel: 'alternate',
         type: 'application/rss+xml',
