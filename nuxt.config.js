@@ -216,8 +216,12 @@ export default {
     '@nuxtjs/sitemap',
     '@nuxtjs/toast',
     'nuxt-clipboard2',
-    '@nuxtjs/feed'
+    '@nuxtjs/feed',
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'UA-67506568-27'
+  },
   sitemap: {
     hostname: 'https://tamilwords.net',
     gzip: true,
