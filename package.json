@@ -46,7 +46,7 @@
     "@babel/eslint-parser": "^7.22.5",
     "eslint": "^8.42.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "sass": "^1.63.3",
+    "sass": "^1.63.4",
     "sass-loader": "^13.3.2"
   }
 }
