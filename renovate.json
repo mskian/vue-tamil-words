@@ -17,9 +17,6 @@
 			"groupName": "@nuxtjs"
 		}
 	],
-	"node": {
-		"supportPolicy": ["lts_active"]
-	},
 	"labels": [
 		"renovate"
 	],
