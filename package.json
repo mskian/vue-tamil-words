@@ -43,7 +43,7 @@
     "@nuxtjs/eslint-config": "^12.0.0",
     "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "@babel/eslint-parser": "^7.22.15",
+    "@babel/eslint-parser": "^7.23.3",
     "eslint": "^8.53.0",
     "eslint-plugin-nuxt": "^4.0.0",
     "sass": "^1.69.5",
