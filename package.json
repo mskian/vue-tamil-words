@@ -30,7 +30,7 @@
   "dependencies": {
     "@nuxtjs/feed": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
-    "@nuxtjs/sitemap": "^2.4.0",
+    "@nuxtjs/sitemap": "^7.4.8",
     "@nuxtjs/toast": "^3.3.1",
     "axios": "^1.13.2",
     "bulma": "^0.9.4",
@@ -41,7 +41,7 @@
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^12.0.0",
-    "@nuxtjs/eslint-module": "^3.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/google-analytics": "^2.4.0",
     "@babel/eslint-parser": "^7.28.5",
     "eslint": "^8.57.1",
